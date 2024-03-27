@@ -1,15 +1,11 @@
 import "./style.css";
-import javascriptLogo from "./javascript.svg";
-import viteLogo from "/vite.svg";
+import malevolentKitchen from "/malevolent-kitchen.png";
 import { setupCounter } from "./counter.js";
 
 document.querySelector("#app").innerHTML = `
   <div>
     <a href="https://vitejs.dev" target="_blank">
-      <img src="${viteLogo}" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
-      <img src="${javascriptLogo}" class="logo vanilla" alt="JavaScript logo" />
+      <img src="${malevolentKitchen}" class="logo" alt="Vite logo" />
     </a>
     <h1>Malevolent Kitchen!</h1>
     <div class="card">
