@@ -1,0 +1,35 @@
+#categorycard {
+    margin: 0;
+    padding: 3rem;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    letter-spacing: .5px;
+}
+
+.category-title{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.category-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}
+
+.category-card-container{
+    align-items: center;
+    margin: 4rem auto;
+    padding: 10;
+}
+
+.category-card{
+    align-items: center;
+    background-color: black;
+}
+
+.category-card-heading{
+    color: white;
+}
