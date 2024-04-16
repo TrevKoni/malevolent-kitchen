@@ -15,8 +15,11 @@ if (Array.isArray(recipesData.recipes)) {
     <div class="recipe-card-container">
         <div class="recipe-card">
             <img src="${recipe.img}">
-            <h3 class="recipe-card-heading">${recipe.name}</h3>
+            <h2 class="recipe-card-heading">${recipe.name}</h2>
             <p class="recipe-card-body">${recipe.desc}</p>
+            <div class="recipe-card-button">
+              <a href="/${recipe.name}"  class="recipe-card-link">More...</a>
+            </div>
         </div>
     </div>
     `,
