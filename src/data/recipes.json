@@ -1,0 +1,212 @@
+{
+  "recipes": [
+    {
+      "id": 1,
+      "name": "Chocolate Cake",
+      "category": "dessert",
+      "desc": "Rich and creamy chocolate cake with chocolate frosting.",
+      "img": "../assets/cake.jpg",
+      "ingredients": [
+        "2 cups all-purpose flour",
+        "2 cups granulated sugar",
+        "3/4 cup unsweetened cocoa powder",
+        "2 teaspoons baking powder",
+        "1 1/2 teaspoons baking soda",
+        "1 teaspoon salt",
+        "2 large eggs",
+        "1 cup milk",
+        "1/2 cup vegetable oil",
+        "2 teaspoons vanilla extract",
+        "1 cup boiling water",
+        "Frosting of your choice"
+      ],
+      "steps": [
+        "Preheat oven to 350°F (175°C). Grease and flour two 9-inch round cake pans.",
+        "In a large mixing bowl, combine flour, sugar, cocoa powder, baking powder, baking soda, and salt.",
+        "Add eggs, milk, oil, and vanilla extract to the dry ingredients and mix until well combined.",
+        "Stir in boiling water until the batter is smooth. It will be thin.",
+        "Pour the batter evenly into the prepared cake pans.",
+        "Bake for 30 to 35 minutes, or until a toothpick inserted into the center comes out clean.",
+        "Allow the cakes to cool in the pans for 10 minutes, then transfer them to a wire rack to cool completely.",
+        "Once the cakes are cooled, frost with your favorite frosting."
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Chocolate Chip Cookies",
+      "category": "cookies",
+      "desc": "Classic chocolate chip cookies with a crispy crumb topping.",
+      "img": "../assets/cookies.jpg",
+      "ingredients": [
+        "1 cup unsalted butter, softened",
+        "1 cup granulated sugar",
+        "1 cup packed brown sugar",
+        "2 large eggs",
+        "2 teaspoons vanilla extract",
+        "3 cups all-purpose flour",
+        "1 teaspoon baking soda",
+        "1/2 teaspoon salt",
+        "2 cups semisweet chocolate chips"
+      ],
+      "steps": [
+        "Preheat oven to 375°F (190°C). Line baking sheets with parchment paper.",
+        "In a large mixing bowl, cream together butter, granulated sugar, and brown sugar until smooth.",
+        "Beat in eggs one at a time, then stir in vanilla extract.",
+        "Combine flour, baking soda, and salt; gradually add to the creamed mixture and mix well.",
+        "Stir in chocolate chips.",
+        "Drop dough by rounded tablespoonfuls onto the prepared baking sheets.",
+        "Bake for 8 to 10 minutes, or until edges are lightly browned.",
+        "Allow cookies to cool on baking sheet for 5 minutes before transferring to a wire rack to cool completely."
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Pancakes",
+      "category": "breakfast",
+      "desc": "Classic pancakes with syrup, fruit, and whipped cream.",
+      "img": "../assets/pancakes.jpg",
+      "ingredients": [
+        "1 1/2 cups all-purpose flour",
+        "3 1/2 teaspoons baking powder",
+        "1 teaspoon salt",
+        "1 tablespoon granulated sugar",
+        "1 1/4 cups milk",
+        "1 egg",
+        "3 tablespoons melted butter"
+      ],
+      "steps": [
+        "In a large mixing bowl, sift together flour, baking powder, salt, and sugar.",
+        "In another bowl, beat together milk and egg, then stir in melted butter.",
+        "Combine wet and dry ingredients and mix until just blended. Do not overmix; the batter should be slightly lumpy.",
+        "Heat a lightly oiled griddle or frying pan over medium-high heat.",
+        "Pour or scoop the batter onto the griddle, using approximately 1/4 cup for each pancake.",
+        "Cook until bubbles form on the surface, then flip and cook until golden brown on the other side.",
+        "Serve hot with your favorite toppings, such as syrup, fruit, or whipped cream."
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Blueberry Muffins",
+      "category": "breakfast",
+      "desc": "Moist and fluffy muffins bursting with juicy blueberries.",
+      "img": "../assets/blueberry_muffins.jpg",
+      "ingredients": [
+        "2 cups all-purpose flour",
+        "1/2 cup granulated sugar",
+        "2 teaspoons baking powder",
+        "1/2 teaspoon baking soda",
+        "1/4 teaspoon salt",
+        "1 cup buttermilk",
+        "1/2 cup unsalted butter, melted",
+        "2 large eggs",
+        "1 teaspoon vanilla extract",
+        "1 1/2 cups fresh blueberries"
+      ],
+      "steps": [
+        "Preheat oven to 375°F (190°C). Line a muffin tin with paper liners.",
+        "In a large mixing bowl, whisk together flour, sugar, baking powder, baking soda, and salt.",
+        "In another bowl, whisk together buttermilk, melted butter, eggs, and vanilla extract.",
+        "Pour wet ingredients into dry ingredients and mix until just combined.",
+        "Fold in blueberries.",
+        "Divide batter evenly among muffin cups.",
+        "Bake for 18 to 20 minutes, or until a toothpick inserted into the center comes out clean.",
+        "Allow muffins to cool in the tin for 5 minutes before transferring to a wire rack to cool completely."
+      ]
+    },
+
+    {
+      "id": 5,
+      "name": "Grilled Cheese Sandwich",
+      "category": "lunch",
+      "desc": "Classic comfort food made with gooey melted cheese between crispy bread slices.",
+      "img": "../assets/grilled_cheese.jpg",
+      "ingredients": [
+        "4 slices bread",
+        "2 tablespoons unsalted butter, softened",
+        "1 1/2 cups shredded cheddar cheese"
+      ],
+      "steps": [
+        "Heat a skillet or griddle over medium heat.",
+        "Spread softened butter on one side of each slice of bread.",
+        "Place one slice of bread, butter-side down, on the skillet.",
+        "Sprinkle half of the shredded cheddar cheese on the bread slice in the skillet.",
+        "Top with another slice of bread, butter-side up.",
+        "Cook until the bottom slice of bread is golden brown and the cheese is starting to melt, about 2-3 minutes.",
+        "Flip the sandwich and cook until the other side is golden brown and the cheese is completely melted, about 2-3 minutes.",
+        "Repeat with remaining bread slices and cheese to make another sandwich."
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Chicken Alfredo Pasta",
+      "category": "dinner",
+      "desc": "Creamy and indulgent pasta dish with tender chicken and rich Alfredo sauce.",
+      "img": "../assets/chicken_alfredo.jpg",
+      "ingredients": [
+        "8 oz fettuccine pasta",
+        "2 boneless, skinless chicken breasts, sliced",
+        "2 tablespoons olive oil",
+        "4 cloves garlic, minced",
+        "1 cup heavy cream",
+        "1 cup grated Parmesan cheese",
+        "Salt and pepper, to taste",
+        "Fresh parsley, chopped (for garnish)"
+      ],
+      "steps": [
+        "Cook fettuccine pasta according to package instructions. Drain and set aside.",
+        "In a large skillet, heat olive oil over medium-high heat.",
+        "Add sliced chicken breasts and cook until browned and cooked through, about 5-7 minutes per side.",
+        "Add minced garlic to the skillet and cook until fragrant, about 1 minute.",
+        "Reduce heat to medium and pour in heavy cream. Bring to a simmer.",
+        "Stir in grated Parmesan cheese until melted and smooth.",
+        "Season with salt and pepper to taste.",
+        "Add cooked fettuccine to the skillet and toss to coat in the Alfredo sauce.",
+        "Serve hot, garnished with chopped fresh parsley."
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Guacamole",
+      "category": "appetizer",
+      "desc": "Fresh and flavorful avocado dip with tomatoes, onions, and lime juice.",
+      "img": "../assets/guacamole.jpg",
+      "ingredients": [
+        "3 ripe avocados",
+        "1/2 small red onion, finely chopped",
+        "1 small tomato, diced",
+        "1 jalapeño pepper, seeded and finely chopped",
+        "1/4 cup chopped fresh cilantro",
+        "Juice of 1 lime",
+        "Salt and pepper, to taste"
+      ],
+      "steps": [
+        "Cut avocados in half, remove pits, and scoop out flesh into a bowl.",
+        "Mash avocados with a fork until smooth or slightly chunky, depending on preference.",
+        "Add chopped red onion, diced tomato, jalapeño pepper, and chopped cilantro to the bowl.",
+        "Squeeze lime juice over the ingredients and season with salt and pepper to taste.",
+        "Stir until well combined.",
+        "Serve immediately with tortilla chips or as a topping for tacos, nachos, or burritos."
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Caesar Salad",
+      "category": "salad",
+      "desc": "Classic salad made with crisp romaine lettuce, crunchy croutons, and tangy Caesar dressing.",
+      "img": "../assets/caesar_salad.jpg",
+      "ingredients": [
+        "1 large head romaine lettuce, chopped",
+        "1 cup croutons",
+        "1/2 cup grated Parmesan cheese",
+        "Caesar dressing (store-bought or homemade)",
+        "Salt and pepper, to taste"
+      ],
+      "steps": [
+        "In a large salad bowl, combine chopped romaine lettuce, croutons, and grated Parmesan cheese.",
+        "Drizzle Caesar dressing over the salad and toss until evenly coated.",
+        "Season with salt and pepper to taste.",
+        "Serve immediately as a side dish or add grilled chicken or shrimp for a main course."
+      ]
+    }
+  ]
+}

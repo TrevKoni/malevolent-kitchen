@@ -7,11 +7,8 @@ console.log(recipesData);
 
 // Ensure recipesData.recipes is an array
 if (Array.isArray(recipesData.recipes)) {
-  // Select the top 3 recipes
-  const topRecipes = recipesData.recipes.slice(0, 3);
-
-  // Map through the array of top recipes to generate recipe cards
-  document.querySelector("#recipecard").innerHTML = topRecipes
+  // Map through the array of recipes to generate recipe cards
+  document.querySelector("#all-recipe-cards").innerHTML = recipesData.recipes
     .map(
       (recipe) =>
         `

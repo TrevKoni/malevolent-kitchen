@@ -8,13 +8,17 @@
       rel="stylesheet"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <title>Malevolent Kitchen</title>
   </head>
   <body>
     <div id="navbar"></div>
-    <div id="app"></div>
-    <div id="recipecard"></div>
-    <div id="categorycard"></div>
+    <div class="container">
+      <div>
+        <h2 class="title">Top Recipes</h2>
+        <div id="recipecard" class="recipe-cards-container"></div>
+      </div>
+      <div id="categorycard"></div>
+    </div>
     <div id="footer"></div>
 
     <script type="module" src="/src/components/navbar.js"></script>
