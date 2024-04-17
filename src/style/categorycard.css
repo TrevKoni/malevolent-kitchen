@@ -1,35 +1,30 @@
-#categorycard {
-    margin: 0;
-    padding: 3rem;
-    box-sizing: border-box;
-    text-transform: capitalize;
-    letter-spacing: .5px;
+.category-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
 }
 
-.category-title{
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.category-card-container {
+  align-items: center;
+  margin: 4rem auto;
+  padding: 10;
 }
 
-.category-container{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 1rem;
+.category-card {
+  text-align: center;
+  background-color: #1ab1ed;
+  border-radius: 25px;
+  padding-top: 25px;
+  padding-bottom: 5px;
 }
 
-.category-card-container{
-    align-items: center;
-    margin: 4rem auto;
-    padding: 10;
+.category-card:hover {
+  background-color: #f583d8;
 }
 
-.category-card{
-    align-items: center;
-    background-color: black;
+.category-card-heading {
+  color: white;
+  text-align: center;
+  font-size: 40px;
 }
 
-.category-card-heading{
-    color: white;
-}

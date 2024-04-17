@@ -38,8 +38,44 @@ h1 {
   text-align: center;
 }
 
+.main-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.main-image {
+  width: 300px;
+  height: 300px;
+  border-radius: 25px;
+}
+
+.main-title {
+  font-size: 40px;
+  color: #1ab1ed;
+  font-weight: 600;
+}
+
+.main-text {
+  font-size: 20px;
+  color: #f583d8;
+}
+
 .title {
   text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.side-title {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.generic-text {
+  font-size: 20px;
 }
 
 .logo {
@@ -98,5 +134,107 @@ button:focus-visible {
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 60px 20px;
+}
+
+.justify-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 25px;
+}
+
+.contact-content {
+  text-align: center;
+}
+
+.contact-header {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.contact-text {
+  font-size: 25px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  padding-inline: 150px;
+}
+
+.contact-input {
+  width: 47%;
+  color: #f583d8;
+  background-color: #242424;
+  padding: 10px;
+  border-radius: 25px;
+  border: 0px solid #ccc;
+  margin-bottom: 10px;
+  font-size: 17px;
+}
+
+.contact-textarea {
+  width: 100%;
+  height: 150px;
+  color: #f583d8;
+  background-color: #242424;
+  padding: 10px;
+  border-radius: 25px;
+  border: 0px solid #ccc;
+  margin-bottom: 10px;
+  box-sizing: border-box; /* Include padding and border in width calculation */
+  font-size: 20px;
+}
+
+.contact-button {
+  background-color: #f583d8;
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.contact-input:focus,
+.contact-textarea:focus {
+  outline: none;
+}
+
+::placeholder {
+  color: #f583d8;
+  font-size: 20px;
+}
+
+#search-form {
+  width: 50%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #242424;
+  border-radius: 25px;
+  padding-inline: 20px;
+}
+
+#search-input {
+  width: 100%;
+  margin-right: 40px;
+  border-top: none;
+  border-left: none;
+  border-bottom: none;
+  border-right-color: #1ab1ed;
+  border-radius: 25px 0 0 25px;
+  background-color: #242424;
+  color: #f583d8;
+  font-size: 20px;
+}
+
+#search-input:focus {
+  outline: none;
 }

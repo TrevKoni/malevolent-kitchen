@@ -2,13 +2,56 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/malevolent-kitchen.png" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title></title>
+    <title>Contact Us</title>
     <link href="css/style.css" rel="stylesheet" />
   </head>
   <body>
     <div id="navbar"></div>
-    <h1>Contact</h1>
+    <div class="container">
+      <img src="/public/kontakt.jpg" alt="Contact Us" class="contact-image" />
+      <div class="contact-content">
+        <h2 class="contact-header">Contact Us</h2>
+        <p class="contact-text">
+          In case you have any feedback or want to reach out fill the form
+          below:
+        </p>
+      </div>
+      <div class="contact-form">
+        <form
+          action="https://formsubmit.co/2533eb33c0a2338513c0ce8985475596"
+          method="POST"
+        >
+          <div class="justify-between contact-input-container">
+            <input
+              class="contact-input"
+              type="text"
+              name="Name"
+              placeholder="Name"
+            />
+            <input
+              class="contact-input"
+              type="email"
+              name="Email"
+              placeholder="Email"
+            />
+          </div>
+          <div>
+            <textarea
+              class="contact-textarea"
+              name="Message"
+              placeholder="Your message"
+            ></textarea>
+          </div>
+          <button class="contact-button">Submit</button>
+        </form>
+      </div>
+    </div>
     <div id="footer"></div>
 
     <script type="module" src="/src/components/navbar.js"></script>

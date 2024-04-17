@@ -13,18 +13,31 @@
   <body>
     <div id="navbar"></div>
     <div class="container">
+      <div class="main-content">
+        <div>
+          <h1 class="main-title">Throughout cookies and biscuits,</h1>
+          <h1 class="main-title">I alone am the baked one!</h1>
+          <div>
+            <p class="main-text">Look for your favourite deserts and sweets:</p>
+            <div id="search-form"></div>
+          </div>
+        </div>
+        <div>
+          <img class="main-image" src="/public/kontakt.jpg" alt="Kitchen" />
+        </div>
+      </div>
       <div>
         <h2 class="title">Top Recipes</h2>
         <div id="recipecard" class="recipe-cards-container"></div>
       </div>
+      <h2 class="title">Top Categories</h2>
       <div id="categorycard"></div>
     </div>
     <div id="footer"></div>
 
-    <script type="module" src="/src/components/navbar.js"></script>
     <script type="module" src="/main.js"></script>
+    <script type="module" src="/src/components/searchForm.js"></script>
     <script type="module" src="/src/components/recipecard.js"></script>
     <script type="module" src="/src/components/categorycard.js"></script>
-    <script type="module" src="/src/components/footer.js"></script>
   </body>
 </html>
