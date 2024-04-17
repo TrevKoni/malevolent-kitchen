@@ -7,7 +7,6 @@
 
 .recipe-card {
   border-radius: 25px;
-  padding: 20px;
   background-color: #1ab1ed;
 }
 
@@ -20,16 +19,19 @@
   margin-top: 10px;
   font-size: 32px;
   height: 70px;
+  padding: 20px;
 }
 
 .recipe-card-body {
   margin-top: 10px;
   font-size: 20px;
   height: 100px;
+  padding: 20px;
 }
 
 .recipe-card-button {
   text-align: center;
+  padding: 20px;
 }
 
 .recipe-card-link {
