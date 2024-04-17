@@ -1,13 +1,9 @@
 import "../../style.css";
 import "../style/categorycard.css";
 
-document.querySelector("#categorycard").innerHTML =  `
+document.querySelector("#categorycard").innerHTML = `
 
-    <div id="category">
-        <div class="category-title">
-            <h2>Top Categories</h2>
-        </div>
-
+    <div id="container">
         <div class="category-container">
             <div class="category-card-container-1">
                 <div class="category-card">
@@ -39,3 +35,4 @@ document.querySelector("#categorycard").innerHTML =  `
         </div>
     </div> 
 `;
+
