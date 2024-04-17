@@ -153,7 +153,7 @@ button:focus-visible {
   border: 0px solid #ccc;
   margin-bottom: 10px;
   box-sizing: border-box; /* Include padding and border in width calculation */
-  font-size: 17px;
+  font-size: 20px;
 }
 
 .contact-button {
@@ -165,7 +165,40 @@ button:focus-visible {
   width: 100%;
 }
 
+.contact-input:focus,
+.contact-textarea:focus {
+  outline: none;
+}
+
 ::placeholder {
   color: #f583d8;
-  font-size: 17px;
+  font-size: 20px;
+}
+
+#search-form {
+  width: 50%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #242424;
+  border-radius: 25px;
+  padding-inline: 20px;
+}
+
+#search-input {
+  width: 100%;
+  margin-right: 40px;
+  border-top: none;
+  border-left: none;
+  border-bottom: none;
+  border-right-color: #1ab1ed;
+  border-radius: 25px 0 0 25px;
+  background-color: #242424;
+  color: #f583d8;
+  font-size: 20px;
+}
+
+#search-input:focus {
+  outline: none;
 }
