@@ -6,14 +6,18 @@ document.querySelector("#navbar").innerHTML = `
     <a href="/" class="nav-link">Home</a>
     <a href="./recipes" class="nav-link">Recipes</a>
       <div class="dropdown">
-        <button class="dropbtn">Categories
-        <i class="fa fa-caret-down"></i>
-      </button>
-      <div class="dropdown-content">
-      <a href="#">Link 1</a>
-      <a href="#">Link 2</a>
-      <a href="#">Link 3</a>
-    </div>
+          <button class="dropbtn" id="category-select">Categories
+            <i class="fa fa-caret-down"></i>
+          </button>
+        <div class="dropdown-content">
+          <a href="./categories">Biscuits</a>
+          <a href="./categories">Cakes</a>
+          <a href="./categories">Candy</a>
+          <a href="./categories">Cookies</a>
+          <a href="./categories">Frozen</a>
+          <a href="./categories">Pastries</a>
+          <a href="./categories">Puddings</a>
+        </div>
       </div>
       
     <a href="./about" class="nav-link">About</a>

@@ -3,7 +3,7 @@
     {
       "id": 1,
       "name": "Flourless Chocolate Cake",
-      "category": "cakes",
+      "category": "cake",
       "desc": "Fudgy, rich, decadent, and supremely chocolatey.",
       "img": "../assets/fccake.jpg",
       "ingredients": [
@@ -41,7 +41,7 @@
     {
       "id": 2,
       "name": "Chocolate Chip Cookies",
-      "category": "cookies",
+      "category": "cookie",
       "desc": "Classic chocolate chip cookies with a crispy crumb topping.",
       "img": "../assets/cccookies.jpeg",
       "ingredients": [
@@ -69,7 +69,7 @@
     {
       "id": 3,
       "name": "French Croissants",
-      "category": "pastries",
+      "category": "pastry",
       "desc": "Classic French croissants with a flaky, buttery texture.",
       "img": "../assets/fcroissant.jpg",
       "ingredients": [
@@ -130,7 +130,7 @@
     {
       "id": 5,
       "name": "Classic Biscuits",
-      "category": "biscuits",
+      "category": "biscuit",
       "desc": "Fluffy and buttery biscuits perfect for breakfast or as a side dish.",
       "img": "../assets/cbiscuits.jpg",
       "ingredients": [
@@ -155,7 +155,7 @@
     {
       "id": 6,
       "name": "Homemade Vanilla Ice Cream",
-      "category": "ice cream",
+      "category": "frozen",
       "desc": "Creamy and smooth vanilla ice cream perfect for hot summer days.",
       "img": "../assets/homecream.webp",
       "ingredients": [
@@ -203,7 +203,7 @@
     {
       "id": 8,
       "name": "Classic Tiramisu",
-      "category": "dessert",
+      "category": "cake",
       "desc": "A classic Italian dessert made with layers of coffee-soaked ladyfingers and creamy mascarpone cheese.",
       "img": "../assets/tiramisu.jpeg",
       "ingredients": [
@@ -235,7 +235,7 @@
     {
       "id": 9,
       "name": "Cheese Soufflé",
-      "category": "soufflé",
+      "category": "pudding",
       "desc": "A light and fluffy cheese soufflé that's perfect as an appetizer or a main course.",
       "img": "../assets/souffle.webp",
       "ingredients": [
@@ -263,7 +263,5 @@
         "Serve immediately, as soufflés deflate quickly after being removed from the oven. Enjoy the light and airy texture of this classic cheese soufflé!"
       ]
     }
-    
-    
   ]
 }
