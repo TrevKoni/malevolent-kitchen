@@ -1,8 +1,6 @@
 import "../../style.css";
 
 document.addEventListener("DOMContentLoaded", function () {
-  const searchInput = document.querySelector("#search-input");
-
   // Set inner HTML of search-form
   document.querySelector("#search-form").innerHTML = `
     <input
