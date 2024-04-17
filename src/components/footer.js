@@ -12,7 +12,7 @@ document.querySelector("#footer").innerHTML = `
             <br />
             <a href="#">Send an Email</a>
             <br />
-            <a href="https://discord.gg/SC3yy7bq">Discord</a>
+            <a href="https://discord.gg/WcDAYvqCDQ">Discord</a>
           </div>
           <div class="footer-content-div">
             <p class="footer-content-h">Pages</p>
